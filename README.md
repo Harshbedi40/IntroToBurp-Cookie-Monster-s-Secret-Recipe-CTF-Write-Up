@@ -25,11 +25,10 @@
 * In the intercepted request, remove the OTP number that was originally entered.
 * After that, click the "Forward" button at the top of Burp Suite to forward the request with the modified OTP.
 
-Step 7: Find the Flag
-Once the request is forwarded, you will be presented with the flag.
+# Step 7: Find the Flag
+* Once the request is forwarded, you will be presented with the flag.
+* Copy the flag, which will be displayed in the response or somewhere on the page.
 
-Copy the flag, which will be displayed in the response or somewhere on the page.
-
-Step 8: Submit the Flag
-Paste the flag into the picoCTF platform to complete the challenge.
+# Step 8: Submit the Flag
+* Paste the flag into the picoCTF platform to complete the challenge.
 
