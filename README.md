@@ -1,4 +1,4 @@
-# IntroToBurp-CTF-Write-Up
+# **IntroToBurp-CTF-WriteUp**
 
 # Step 1: Open the Website and Burp Suite
 * First, open the website by clicking on the provided link in the challenge description.
@@ -32,3 +32,46 @@
 # Step 8: Submit the Flag
 * Paste the flag into the picoCTF platform to complete the challenge.
 
+
+Here's an enhanced version of your write-up that makes the steps clearer, more structured, and engaging for your GitHub post:
+
+---
+
+# **Cookie Monster's Secret Recipe-CTF-WriteUp**
+
+# **Step-by-Step Guide**
+
+# **Step 1: Open the Website**
+- First, navigate to the challenge website by clicking on the link provided. Additionally, open **CyberChef** in your browser—this will be helpful for decoding the hidden data.
+
+### **Step 2: Enter Credentials**
+- Enter **"Admin"** as both the **username** and **password** in the login form.
+- However, **DO NOT** click on the **Register** button yet. This is important for the next steps!
+
+### **Step 3: Inspect the Application**
+- Right-click anywhere on the webpage and select **Inspect** (or press `Ctrl + Shift + I`).
+- In the **Developer Tools** window, go to the **Application** tab. This is where you'll investigate the cookies and local storage.
+
+### **Step 4: Click the Register Button**
+- Now, click the **Register** button on the page. At this point, the application will trigger certain actions that modify the cookies.
+
+### **Step 5: Refresh the Application Page**
+- Refresh the application page after clicking **Register**. You’ll notice that new data will appear, though it may seem unreadable at first.
+- Look closely in the **Application** tab, and you’ll spot a string of **garbled** or **encoded** text in the cookies or local storage.
+
+### **Step 6: Copy the Encoded Data**
+- Copy the unreadable string you find in the **Application** tab. This is the encoded data that contains the flag.
+
+### **Step 7: Decode the Data with CyberChef**
+- Go back to **CyberChef** and paste the copied string into the input field.
+- Now, apply the following operations:
+  - **URL Decode**: This will decode any URL-encoded characters.
+  - **Base64 Decode**: This will decode the string from Base64 encoding.
+
+### **Step 8: Get the Flag**
+- After applying both decoders, click on the **Bake** button in CyberChef.
+- The output will reveal the **flag** in a human-readable format.
+
+### **Step 9: Submit the Flag**
+- Copy the flag from CyberChef and head back to **picoCTF**.
+- Paste the flag into the appropriate submission field and click **Submit**.
