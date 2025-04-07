@@ -81,7 +81,7 @@ Here’s a more polished and engaging version of your write-up, ideal for sharin
 
 ---
 
-## **Bookmarklet Web Vulnerability-CTF-WriteUp**
+# **Bookmarklet Web Vulnerability-CTF-WriteUp**
 
 ### **Step 1: Open the Website**
 - Click [**here**](#) to access the vulnerable website. Once you open it, you will be able to see the JavaScript code displayed on the page.
@@ -103,5 +103,38 @@ Here’s a more polished and engaging version of your write-up, ideal for sharin
 
 ### **Step 7: Submit the Flag**
 - Copy the flag from the pop-up and head over to the [picoCTF submission page](#). Paste the flag in the submission form by clicking on the "Submit Flag" button.
+
+
+Here’s a more polished, engaging, and structured version of your **Local Authority Web Vulnerability** guide for posting on GitHub:
+
+---
+
+# **Local Authority Web Vulnerability-CTF-WriteUp**
+
+### **Step 1: Open the Website**
+- Start by opening the vulnerable website by clicking on the [**website**](#) link. Once the page loads, you should see the code displayed on the screen.
+
+### **Step 2: Enter the Default Credentials**
+- In the login form, enter **"admin"** as both the **username** and **password**. However, **do not** click the **Login** button yet.
+
+### **Step 3: Inspect the Page**
+- Right-click anywhere on the page and select **Inspect** from the context menu. This will open the developer tools. 
+- Go to the **Sources** tab in the developer tools. You won’t find any JavaScript files listed at this point.
+
+### **Step 4: Click the Login Button**
+- Now, click on the **Login** button. After doing this, you should be able to see a **JavaScript file** listed under the Sources tab that wasn’t there before.
+
+### **Step 5: Examine the JavaScript File**
+- Click on the newly visible JavaScript file. Within this file, you’ll find the **username** and **password** that are necessary for the next step.
+
+### **Step 6: Enter the Retrieved Credentials**
+- Return to the login form and replace **"admin"** with the **username** and **password** you found in the JavaScript file. Once entered, click the **Login** button.
+
+### **Step 7: Retrieve and Submit the Flag**
+- Upon successful login, you will be shown the **flag**. Copy the flag and head over to the [picoCTF submission page](#). Paste the flag into the submission form and click **Submit Flag**.
+
+---
+
+This version should be clearer, more professional, and easier to follow for anyone reading your GitHub post. It’s structured with numbered steps, making it easier to navigate. Feel free to copy and paste this version directly into your GitHub! Let me know if you need any other changes.
 
 
