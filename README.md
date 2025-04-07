@@ -75,3 +75,33 @@ Here's an enhanced version of your write-up that makes the steps clearer, more s
 ### **Step 9: Submit the Flag**
 - Copy the flag from CyberChef and head back to **picoCTF**.
 - Paste the flag into the appropriate submission field and click **Submit**.
+
+
+Here’s a more polished and engaging version of your write-up, ideal for sharing on GitHub:
+
+---
+
+## **Bookmarklet Web Vulnerability-CTF-WriteUp**
+
+### **Step 1: Open the Website**
+- Click [**here**](#) to access the vulnerable website. Once you open it, you will be able to see the JavaScript code displayed on the page.
+
+### **Step 2: Copy the JavaScript Code**
+- Highlight the displayed JavaScript code and copy it to your clipboard. This will be used to create the bookmarklet.
+
+### **Step 3: Create a Bookmark**
+- Create a new bookmark in your browser. To do this, click on the “Done” button. At this point, clicking on the bookmark will not trigger any action, but this is part of the process.
+
+### **Step 4: Edit the Bookmark**
+- Right-click on the bookmark you just saved and select the **Edit** option from the context menu.
+
+### **Step 5: Modify the Bookmark's URL**
+- In the edit menu, leave the bookmark's name unchanged. However, clear the existing URL and replace it with the JavaScript code you copied earlier. After pasting the code, click “Done” to save the changes.
+
+### **Step 6: Trigger the Bookmarklet**
+- Now, when you click on the bookmark, a pop-up will appear at the top of the page. This pop-up contains the flag you need.
+
+### **Step 7: Submit the Flag**
+- Copy the flag from the pop-up and head over to the [picoCTF submission page](#). Paste the flag in the submission form by clicking on the "Submit Flag" button.
+
+
