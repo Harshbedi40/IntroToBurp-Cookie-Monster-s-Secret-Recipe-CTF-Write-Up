@@ -121,3 +121,50 @@
 ### **Step 7: Retrieve and Submit the Flag**
 - Upon successful login, you will be shown the **flag**. Copy the flag and head over to the [picoCTF submission page](#). Paste the flag into the submission form and click **Submit Flag**.
 
+
+Sure! Here's a cleaned-up and more attractive version of your **PicoCTF challenge writeup for "n0s4n1ty 1"**, ideal for putting on GitHub. I’ve corrected the grammar, improved clarity, and added some formatting for better readability.
+
+---
+
+## 🕵️ PicoCTF: *n0s4n1ty 1* — Web Exploitation-CTF-Writeup
+
+#### 🔹 **Step 1:**  
+Click on the link labeled **"here"** to open the target website. You’ll land on a web page where you’re prompted to upload a file/profile.
+
+#### 🔹 **Step 2:**  
+Create a simple `.txt` file and insert a **malicious payload** into it. You can use **ChatGPT** to generate this payload — just ask it for a PHP web shell or a suitable payload for solving this PicoCTF challenge.
+
+#### 🔹 **Step 3:**  
+Once you receive the payload, paste it into your `.txt` file and **save it as** `shell.php`.
+
+#### 🔹 **Step 4:**  
+Now go back to the website. Click on **"Choose File"**, select the `shell.php` file you just created, and then click on **"Upload File"**.
+
+#### 🔹 **Step 5:**  
+After uploading, you’ll be given a **file path**. Copy this path and paste it into the URL bar of your browser, like so:
+
+```
+uploads/shell.php?cmd=whoami
+```
+
+Make sure to append this after the base URL (don't forget to include any numeric ID or directory structure if present).
+
+---
+
+#### 🔹 **Step 6:**  
+If everything worked, you’ll see the result of the `whoami` command, which confirms the shell is active. You can now execute additional commands by modifying the `cmd` parameter.
+
+To directly retrieve the flag, run:
+
+```
+uploads/shell.php?cmd=sudo%20cat%20/root/flag.txt
+```
+
+Note: Use `%20` in place of spaces in the URL.
+
+---
+
+#### 🔹 **Step 7:**  
+🎉 **Congratulations!** You’ll see the flag displayed on the screen. Copy it, paste it into the PicoCTF flag submission box, and click **"Submit Flag"** to complete the challenge.
+
+
