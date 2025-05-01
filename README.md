@@ -218,5 +218,150 @@ Copy the encoded string and paste it into **CyberChef**. Use the **"Magic"** or 
 This challenge highlights the importance of inspecting hidden or encoded content within a webpage and using tools like **CyberChef** to decode it. It's a great example of how developers might unintentionally leave sensitive data accessible through client-side code.
 
 ---
+Here's a cleaned-up and attractive version of your **PicoCTF challenge writeup for "Unminify"**, with corrected grammar, improved formatting, and better structure for a GitHub `README.md`.
 
+---
+
+## 🔍 PicoCTF: *Unminify* — Web Exploitation Writeup
+
+### Challenge Type: Web Exploitation  
+### Difficulty: Very Easy  
+### Author: *Your Name or GitHub Handle*
+
+---
+
+### 🧭 Step-by-Step Walkthrough
+
+#### 🔹 **Step 1:**  
+Click on the provided **"here"** link to open the challenge website. You’ll land on a simple web page.
+
+---
+
+#### 🔹 **Step 2:**  
+Right-click anywhere on the page and select **"View Page Source"** or **"Inspect"** to open the developer tools and view the underlying code.
+
+---
+
+#### 🔹 **Step 3:**  
+Once you're in the source code, carefully look through the content to **locate the flag**.
+
+---
+
+#### 🔹 **Step 4:**  
+The flag should be **clearly visible** in the code — no decoding or decryption is needed.
+
+---
+
+#### 🔹 **Step 5:**  
+🎉 **Congratulations!** You’ve found the flag.  
+Simply copy it, paste it into the PicoCTF submission box, and click **"Submit Flag"** to complete the challenge.
+
+---
+
+### 🧠 Final Thoughts
+
+This challenge demonstrates how even **minified or embedded code** can sometimes expose sensitive information. Always check the source code — it's often the first and simplest step in web exploitation challenges.
+
+---
+
+## 🔎 PicoCTF: *Inspect HTML* — Web Exploitation Writeup
+
+### Challenge Type: Web Exploitation  
+### Difficulty: Very Easy  
+### Author: *Your Name or GitHub Handle*
+
+---
+
+### 🧭 Step-by-Step Walkthrough
+
+#### 🔹 **Step 1:**  
+Click on the provided **"here"** link to open the challenge website. This will take you to a basic web page.
+
+---
+
+#### 🔹 **Step 2:**  
+Right-click anywhere on the page and choose **"View Page Source"** or **"Inspect"** to open the developer tools and view the page's HTML source code.
+
+---
+
+#### 🔹 **Step 3:**  
+In the source code, **search for the flag** — it's hidden in the HTML and doesn’t require any decoding.
+
+---
+
+#### 🔹 **Step 4:**  
+Scroll toward the **end of the code** — you’ll spot the flag clearly embedded there.
+
+---
+
+#### 🔹 **Step 5:**  
+🎉 **Congratulations!** You've successfully found the flag.  
+Copy it, paste it into the PicoCTF platform, and click **"Submit Flag"** to complete the challenge.
+
+---
+
+### 🧠 Final Thoughts
+
+This challenge is a great reminder to always **inspect the page source** — sometimes the flag is hidden in plain sight! It's a classic example of client-side exposure in web applications.
+
+---
+
+Here's a clean, grammatically correct, and GitHub-optimized version of your **PicoCTF challenge writeup for "Includes"**, structured in a professional and clear format for a `README.md`:
+
+---
+
+## 🔍 PicoCTF: *Includes* — Web Exploitation Writeup
+
+### Challenge Type: Web Exploitation  
+### Difficulty: Easy  
+### Author: *Your Name or GitHub Handle*
+
+---
+
+### 🧭 Step-by-Step Walkthrough
+
+#### 🔹 **Step 1:**  
+Click on the **"here"** link provided in the challenge to open the target website. You'll see a simple web page.
+
+---
+
+#### 🔹 **Step 2:**  
+Right-click anywhere on the page and choose **"View Page Source"** or **"Inspect"** to open the browser’s developer tools.
+
+---
+
+#### 🔹 **Step 3:**  
+In the page source, you’ll notice two linked files:
+- `style.css`
+- `script.js`
+
+Start by clicking on **`style.css`**.
+
+---
+
+#### 🔹 **Step 4:**  
+Inside `style.css`, you’ll find the **first part of the flag**, often hidden in a comment.  
+Copy this part of the flag — but **do not submit it yet**.
+
+---
+
+#### 🔹 **Step 5:**  
+Next, open the second file: **`script.js`**.  
+There, you’ll find the **second part of the flag**. Copy this portion as well.
+
+---
+
+#### 🔹 **Step 6:**  
+🎉 **Congratulations!** You’ve now obtained **both parts of the flag**.  
+Combine them carefully (make sure there are **no extra spaces between them**), paste the complete flag into PicoCTF, and click **"Submit Flag"**.
+
+---
+
+### 🧠 Final Thoughts
+
+This challenge teaches a valuable lesson about **included external files**. Developers sometimes leave sensitive information in files like `.css` or `.js`, assuming they won't be checked — but for a hacker or CTF participant, these are goldmines.
+
+Always inspect external resources when assessing a web application's structure and behavior!
+
+---
 
