@@ -168,3 +168,55 @@ Note: Use `%20` in place of spaces in the URL.
 🎉 **Congratulations!** You’ll see the flag displayed on the screen. Copy it, paste it into the PicoCTF flag submission box, and click **"Submit Flag"** to complete the challenge.
 
 
+Here's a polished and GitHub-ready version of your **PicoCTF challenge writeup for "WebDecode"**, with corrected grammar, better formatting, and improved readability:
+
+---
+
+## 🌐 PicoCTF: *WebDecode* — Web Exploitation Writeup
+
+### Challenge Type: Web Exploitation  
+### Difficulty: Easy  
+### Author: *Your Name or GitHub Handle*
+
+---
+
+### 🔍 Step-by-Step Walkthrough
+
+#### 🔹 **Step 1:**  
+Click on the provided **"here"** link to open the challenge website. Once there, navigate to the **"About"** section.  
+Also, open [CyberChef](https://gchq.github.io/CyberChef/) in a new tab — we'll need it later for decoding.
+
+---
+
+#### 🔹 **Step 2:**  
+Right-click anywhere on the webpage and select **"View Page Source"** or **"Inspect"** to examine the underlying HTML code.
+
+---
+
+#### 🔹 **Step 3:**  
+Look through the page source to search for the **flag**. If you spot it directly, great! If not, don’t worry — move to the next step.
+
+---
+
+#### 🔹 **Step 4:**  
+If the flag isn’t immediately visible, search for the keyword **`notify: true`** or similar. Near that, you’ll likely find an **encoded or encrypted flag**.
+
+---
+
+#### 🔹 **Step 5:**  
+Copy the encoded string and paste it into **CyberChef**. Use the **"Magic"** or **"Auto Decode"** or simply click on the **"Cook"** button to decode the data. You should now see the flag revealed.
+
+---
+
+#### 🔹 **Step 6:**  
+🎉 **Congratulations!** The decoded flag should be visible on your screen. Copy it, paste it into the PicoCTF platform, and click **"Submit Flag"** to complete the challenge.
+
+---
+
+### 🧠 Final Thoughts
+
+This challenge highlights the importance of inspecting hidden or encoded content within a webpage and using tools like **CyberChef** to decode it. It's a great example of how developers might unintentionally leave sensitive data accessible through client-side code.
+
+---
+
+
