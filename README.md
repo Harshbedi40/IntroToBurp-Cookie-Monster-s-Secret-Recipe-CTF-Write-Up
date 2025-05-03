@@ -150,14 +150,23 @@
 # **Local Authority Web Vulnerability-CTF-WriteUp**
 
 ### **Step 1: Open the Website**
-- Start by opening the vulnerable website by clicking on the [**website**](#) link. Once the page loads, you should see the code displayed on the screen.
+- Start by opening the vulnerable website by clicking on the [**website**](#) link. Once the page loads, you should see the **username** and **password** displayed on the screen.
+  ![image](https://github.com/user-attachments/assets/da8e3e1c-ac56-4706-923d-4ff83ec26a65)
+
 
 ### **Step 2: Enter the Default Credentials**
 - In the login form, enter **"admin"** as both the **username** and **password**. However, **do not** click the **Login** button yet.
+  ![image](https://github.com/user-attachments/assets/c39de966-4fef-44ce-b793-8c143964a38d)
+
 
 ### **Step 3: Inspect the Page**
-- Right-click anywhere on the page and select **Inspect** from the context menu. This will open the developer tools. 
+- Right-click anywhere on the page and select **Inspect** from the context menu. This will open the developer tools.
+  ![image](https://github.com/user-attachments/assets/c6c43354-5bac-4b19-9aec-2bb99c6f5921)
+
+ 
 - Go to the **Sources** tab in the developer tools. You won’t find any JavaScript files listed at this point.
+![image](https://github.com/user-attachments/assets/53107ed5-153a-494b-9385-22ad0741feee)
+
 
 ### **Step 4: Click the Login Button**
 - Now, click on the **Login** button. After doing this, you should be able to see a **JavaScript file** listed under the Sources tab that wasn’t there before.
