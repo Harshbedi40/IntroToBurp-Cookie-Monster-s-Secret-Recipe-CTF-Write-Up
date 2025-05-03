@@ -9,31 +9,47 @@
 
 # Step 2: Copy the URL and Paste in Burp Suite Browser
 * Copy the URL of the website from your browser's address bar.
+  ![image](https://github.com/user-attachments/assets/e2d49c3d-7b91-447e-bf18-3f90f6ed1bee)
+
 * Paste this URL into Burp Suite's browser tab to ensure Burp Suite intercepts the web traffic.
+  ![image](https://github.com/user-attachments/assets/3acc61b6-342d-402e-9276-07d713082e22)
+
 
 # Step 3: Fill in the Registration Details
 * Once the website loads, fill in the registration details in the appropriate form fields (e.g., username, password, email).
 * After entering the information, click the "Register" button to submit the form.
+  ![image](https://github.com/user-attachments/assets/e1c6d552-82e5-4788-808c-12e29a638474)
+
 
 # Step 4: Two-Factor Authentication (2FA) and Interception
 * After registration, you'll be prompted to enter a One-Time Password (OTP) for two-factor authentication (2FA).
 * Before entering the OTP, go to Burp Suite and click on the "Intercept" tab.
 * In Burp Suite, set the intercept to "on" so that Burp can capture the request when you attempt to submit the OTP.
+  ![image](https://github.com/user-attachments/assets/fe807165-fd62-4567-ac46-8887428cdac5)
+
 
 # Step 5: View the OTP in Burp Suite
 * After entering any random 4-digit number for the OTP, the intercept will capture the request.
+  ![image](https://github.com/user-attachments/assets/c4035464-6a32-424f-96a4-3ff350c2b6f3)
+
 * In Burp Suite, click on the intercepted OTP request to view the number that was captured.
 
 # Step 6: Modify the OTP Request
-* In the intercepted request, remove the OTP number that was originally entered.
+* In the intercepted request, remove the OTP option that was originally entered.
 * After that, click the "Forward" button at the top of Burp Suite to forward the request with the modified OTP.
+  ![image](https://github.com/user-attachments/assets/60a4a35d-c01c-4e6f-bf09-993dcf0b49bc)
+
 
 # Step 7: Find the Flag
 * Once the request is forwarded, you will be presented with the flag.
 * Copy the flag, which will be displayed in the response or somewhere on the page.
+  ![image](https://github.com/user-attachments/assets/7e668c59-f3d6-47b3-bdf4-97bc1ecbd668)
+
 
 # Step 8: Submit the Flag
 * Paste the flag into the picoCTF platform to complete the challenge.
+  ![image](https://github.com/user-attachments/assets/1dd4ac09-c8a7-40e5-8f52-47c1082bf30a)
+
   
 
 # **Cookie Monster's Secret Recipe-CTF-WriteUp**
