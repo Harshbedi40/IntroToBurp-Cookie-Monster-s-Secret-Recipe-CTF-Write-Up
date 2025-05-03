@@ -258,11 +258,17 @@ Here's a polished and GitHub-ready version of your **PicoCTF challenge writeup f
 #### 🔹 **Step 1:**  
 Click on the provided **"here"** link to open the challenge website. Once there, navigate to the **"About"** section.  
 Also, open [CyberChef](https://gchq.github.io/CyberChef/) in a new tab — we'll need it later for decoding.
+![image](https://github.com/user-attachments/assets/66189b57-e4a4-4239-8a33-6d0af7490b61)
+![image](https://github.com/user-attachments/assets/71b26e90-9fe4-430a-bfc1-a04534819cae)
+
 
 ---
 
 #### 🔹 **Step 2:**  
 Right-click anywhere on the webpage and select **"View Page Source"** or **"Inspect"** to examine the underlying HTML code.
+![image](https://github.com/user-attachments/assets/edb1d531-c16e-47de-8455-4a5e8bcaeaa3)
+
+
 
 ---
 
@@ -272,17 +278,22 @@ Look through the page source to search for the **flag**. If you spot it directly
 ---
 
 #### 🔹 **Step 4:**  
-If the flag isn’t immediately visible, search for the keyword **`notify: true`** or similar. Near that, you’ll likely find an **encoded or encrypted flag**.
+If the flag isn’t immediately visible, search for the keyword **`notify: true`** or similar. Near that, you’ll likely find an **encoded or encrypted flag
+![image](https://github.com/user-attachments/assets/429bc48d-e118-4d0d-a668-212043c39b08)
+
 
 ---
 
 #### 🔹 **Step 5:**  
 Copy the encoded string and paste it into **CyberChef**. Use the **"Magic"** or **"Auto Decode"** or simply click on the **"Cook"** button to decode the data. You should now see the flag revealed.
+![image](https://github.com/user-attachments/assets/283c5248-d4a5-4f9f-98f3-989d0b1a8558)
+
 
 ---
 
 #### 🔹 **Step 6:**  
 🎉 **Congratulations!** The decoded flag should be visible on your screen. Copy it, paste it into the PicoCTF platform, and click **"Submit Flag"** to complete the challenge.
+![image](https://github.com/user-attachments/assets/a41b5caa-f00a-4d22-ab3a-8c0ffbf4229e)
 
 ---
 
@@ -307,11 +318,13 @@ Here's a cleaned-up and attractive version of your **PicoCTF challenge writeup f
 
 #### 🔹 **Step 1:**  
 Click on the provided **"here"** link to open the challenge website. You’ll land on a simple web page.
+![image](https://github.com/user-attachments/assets/0d17df4d-c712-4399-a1f1-e1baa45524e1)
 
 ---
 
 #### 🔹 **Step 2:**  
 Right-click anywhere on the page and select **"View Page Source"** or **"Inspect"** to open the developer tools and view the underlying code.
+![image](https://github.com/user-attachments/assets/04fef0da-9f69-4a14-afa5-8d44eeb80ae8)
 
 ---
 
@@ -322,12 +335,16 @@ Once you're in the source code, carefully look through the content to **locate t
 
 #### 🔹 **Step 4:**  
 The flag should be **clearly visible** in the code — no decoding or decryption is needed.
+![image](https://github.com/user-attachments/assets/0d40a47d-b3fa-4627-a824-943b377f97f7)
+
 
 ---
 
 #### 🔹 **Step 5:**  
 🎉 **Congratulations!** You’ve found the flag.  
 Simply copy it, paste it into the PicoCTF submission box, and click **"Submit Flag"** to complete the challenge.
+![image](https://github.com/user-attachments/assets/3f3263bc-044d-405a-968a-28c46aa39688)
+
 
 ---
 
@@ -349,11 +366,15 @@ This challenge demonstrates how even **minified or embedded code** can sometimes
 
 #### 🔹 **Step 1:**  
 Click on the provided **"here"** link to open the challenge website. This will take you to a basic web page.
+![image](https://github.com/user-attachments/assets/2e49c7a5-0814-4545-97a1-02914d79931f)
+
 
 ---
 
 #### 🔹 **Step 2:**  
 Right-click anywhere on the page and choose **"View Page Source"** or **"Inspect"** to open the developer tools and view the page's HTML source code.
+![image](https://github.com/user-attachments/assets/06d34b5e-f504-4008-ac61-9906285b336c)
+
 
 ---
 
@@ -364,12 +385,15 @@ In the source code, **search for the flag** — it's hidden in the HTML and does
 
 #### 🔹 **Step 4:**  
 Scroll toward the **end of the code** — you’ll spot the flag clearly embedded there.
+![image](https://github.com/user-attachments/assets/f7185e6d-d3c3-477b-b862-84817555db01)
 
 ---
 
 #### 🔹 **Step 5:**  
 🎉 **Congratulations!** You've successfully found the flag.  
 Copy it, paste it into the PicoCTF platform, and click **"Submit Flag"** to complete the challenge.
+![image](https://github.com/user-attachments/assets/50262001-ddce-413a-b083-94cf92db1b13)
+
 
 ---
 
@@ -395,11 +419,13 @@ Here's a clean, grammatically correct, and GitHub-optimized version of your **Pi
 
 #### 🔹 **Step 1:**  
 Click on the **"here"** link provided in the challenge to open the target website. You'll see a simple web page.
+![image](https://github.com/user-attachments/assets/6d90b68e-6dd1-4608-8265-13f77e421a44)
 
 ---
 
 #### 🔹 **Step 2:**  
 Right-click anywhere on the page and choose **"View Page Source"** or **"Inspect"** to open the browser’s developer tools.
+![image](https://github.com/user-attachments/assets/8aac4dd2-6a27-4670-bcd2-c08d76c25135)
 
 ---
 
@@ -409,24 +435,28 @@ In the page source, you’ll notice two linked files:
 - `script.js`
 
 Start by clicking on **`style.css`**.
+![image](https://github.com/user-attachments/assets/effb8c04-c8b5-47c7-aa0b-b63066fd51a9)
 
 ---
 
 #### 🔹 **Step 4:**  
 Inside `style.css`, you’ll find the **first part of the flag**, often hidden in a comment.  
 Copy this part of the flag — but **do not submit it yet**.
+![image](https://github.com/user-attachments/assets/e7d6bbac-363b-4f3c-8220-d13e2eccb798)
 
 ---
 
 #### 🔹 **Step 5:**  
 Next, open the second file: **`script.js`**.  
 There, you’ll find the **second part of the flag**. Copy this portion as well.
+![image](https://github.com/user-attachments/assets/c2c2cb6a-4408-4e98-959b-8354fe1ae94d)
 
 ---
 
 #### 🔹 **Step 6:**  
 🎉 **Congratulations!** You’ve now obtained **both parts of the flag**.  
 Combine them carefully (make sure there are **no extra spaces between them**), paste the complete flag into PicoCTF, and click **"Submit Flag"**.
+![image](https://github.com/user-attachments/assets/4756164a-9499-4b7d-8833-d4d6682cfc90)
 
 ---
 
