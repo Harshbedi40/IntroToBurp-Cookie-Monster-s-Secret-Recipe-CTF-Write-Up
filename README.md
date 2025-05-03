@@ -173,12 +173,16 @@
 
 ### **Step 5: Examine the JavaScript File**
 - Click on the newly visible JavaScript file. Within this file, you’ll find the **username** and **password** that are necessary for the next step.
+  ![image](https://github.com/user-attachments/assets/28d7db01-2655-4694-9b4b-e9df9ac06c55)
+
 
 ### **Step 6: Enter the Retrieved Credentials**
 - Return to the login form and replace **"admin"** with the **username** and **password** you found in the JavaScript file. Once entered, click the **Login** button.
 
 ### **Step 7: Retrieve and Submit the Flag**
 - Upon successful login, you will be shown the **flag**. Copy the flag and head over to the [picoCTF submission page](#). Paste the flag into the submission form and click **Submit Flag**.
+  ![image](https://github.com/user-attachments/assets/a9bb54d2-a56c-43a6-b555-8432a83670f4)
+
 
 
 Sure! Here's a cleaned-up and more attractive version of your **PicoCTF challenge writeup for "n0s4n1ty 1"**, ideal for putting on GitHub. I’ve corrected the grammar, improved clarity, and added some formatting for better readability.
@@ -189,6 +193,8 @@ Sure! Here's a cleaned-up and more attractive version of your **PicoCTF challeng
 
 #### 🔹 **Step 1:**  
 Click on the link labeled **"here"** to open the target website. You’ll land on a web page where you’re prompted to upload a file/profile.
+![image](https://github.com/user-attachments/assets/ee24bb15-8140-4172-9a82-eebbd3b53739)
+
 
 #### 🔹 **Step 2:**  
 Create a simple `.txt` file and insert a **malicious payload** into it. You can use **ChatGPT** to generate this payload — just ask it for a PHP web shell or a suitable payload for solving this PicoCTF challenge.
@@ -198,6 +204,8 @@ Once you receive the payload, paste it into your `.txt` file and **save it as** 
 
 #### 🔹 **Step 4:**  
 Now go back to the website. Click on **"Choose File"**, select the `shell.php` file you just created, and then click on **"Upload File"**.
+![image](https://github.com/user-attachments/assets/66cddd7a-905e-4a6d-bc39-6a23a0e392ac)
+
 
 #### 🔹 **Step 5:**  
 After uploading, you’ll be given a **file path**. Copy this path and paste it into the URL bar of your browser, like so:
@@ -206,7 +214,9 @@ After uploading, you’ll be given a **file path**. Copy this path and paste it 
 uploads/shell.php?cmd=whoami
 ```
 
-Make sure to append this after the base URL (don't forget to include any numeric ID or directory structure if present).
+Make sure to append this after the base URL (don't forget to include any numeric ID or directory structure if present
+![image](https://github.com/user-attachments/assets/6eae826b-809b-440d-b801-9a9b736081e5)
+
 
 ---
 
@@ -220,6 +230,8 @@ uploads/shell.php?cmd=sudo%20cat%20/root/flag.txt
 ```
 
 Note: Use `%20` in place of spaces in the URL.
+![image](https://github.com/user-attachments/assets/9c8cddfc-87f5-4777-9a04-0b85304d214b)
+
 
 ---
 
@@ -228,6 +240,8 @@ Note: Use `%20` in place of spaces in the URL.
 
 
 Here's a polished and GitHub-ready version of your **PicoCTF challenge writeup for "WebDecode"**, with corrected grammar, better formatting, and improved readability:
+![image](https://github.com/user-attachments/assets/9a159294-ff7e-4fd1-a0d8-974d4b0d2be2)
+
 
 ---
 
