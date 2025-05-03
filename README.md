@@ -113,24 +113,38 @@
 
 ### **Step 1: Open the Website**
 - Click [**here**](#) to access the vulnerable website. Once you open it, you will be able to see the JavaScript code displayed on the page.
+  ![image](https://github.com/user-attachments/assets/f5f2c4f7-2e51-4c7a-a02d-58b0e4235946)
+
 
 ### **Step 2: Copy the JavaScript Code**
 - Highlight the displayed JavaScript code and copy it to your clipboard. This will be used to create the bookmarklet.
+  ![image](https://github.com/user-attachments/assets/21b940c0-58f3-4b79-b566-960ea354d326)
+
 
 ### **Step 3: Create a Bookmark**
 - Create a new bookmark in your browser. To do this, click on the “Done” button. At this point, clicking on the bookmark will not trigger any action, but this is part of the process.
+  ![image](https://github.com/user-attachments/assets/a4a99304-cbe7-4ff8-943f-b5ea55838ad0)
+
 
 ### **Step 4: Edit the Bookmark**
 - Right-click on the bookmark you just saved and select the **Edit** option from the context menu.
+  ![image](https://github.com/user-attachments/assets/da2e5499-e1aa-4831-8ee3-0e8c72f879df)
+
 
 ### **Step 5: Modify the Bookmark's URL**
 - In the edit menu, leave the bookmark's name unchanged. However, clear the existing URL and replace it with the JavaScript code you copied earlier. After pasting the code, click “Done” to save the changes.
+  ![image](https://github.com/user-attachments/assets/7563acbc-9030-4bef-82dd-086d0f4cdb38)
+
 
 ### **Step 6: Trigger the Bookmarklet**
 - Now, when you click on the bookmark, a pop-up will appear at the top of the page. This pop-up contains the flag you need.
+  ![image](https://github.com/user-attachments/assets/eea4d85e-505e-4028-9a16-d184ec13f06f)
+
 
 ### **Step 7: Submit the Flag**
 - Copy the flag from the pop-up and head over to the [picoCTF submission page](#). Paste the flag in the submission form by clicking on the "Submit Flag" button.
+  ![image](https://github.com/user-attachments/assets/4a71be56-1590-449a-b7f6-64d54f263e5f)
+
 
 
 # **Local Authority Web Vulnerability-CTF-WriteUp**
