@@ -4,6 +4,9 @@
 * First, open the website by clicking on the provided link in the challenge description.
 * Simultaneously, launch Burp Suite in your browser. Burp Suite will intercept and analyze your web traffic.
 
+  ![image](https://github.com/user-attachments/assets/3bd166ee-a6e8-4317-8d83-3c6702417a14)
+
+
 # Step 2: Copy the URL and Paste in Burp Suite Browser
 * Copy the URL of the website from your browser's address bar.
 * Paste this URL into Burp Suite's browser tab to ensure Burp Suite intercepts the web traffic.
