@@ -58,14 +58,22 @@
 
 # **Step 1: Open the Website**
 - First, navigate to the challenge website by clicking on the link provided. Additionally, open **CyberChef** in your browser—this will be helpful for decoding the hidden data.
+  ![image](https://github.com/user-attachments/assets/9640e4df-3016-437d-a51b-b8f5d95bf538)
+  ![image](https://github.com/user-attachments/assets/37702bcb-a256-4f98-aa29-80b8d74a9ed7)
 
 ### **Step 2: Enter Credentials**
 - Enter **"Admin"** as both the **username** and **password** in the login form.
+  ![image](https://github.com/user-attachments/assets/facdda34-29f9-4dce-838e-f314d95eaa72)
+  
 - However, **DO NOT** click on the **Register** button yet. This is important for the next steps!
 
 ### **Step 3: Inspect the Application**
 - Right-click anywhere on the webpage and select **Inspect** (or press `Ctrl + Shift + I`).
+  ![image](https://github.com/user-attachments/assets/257cc21a-6a38-4190-800e-5f52a8d777fe)
+
 - In the **Developer Tools** window, go to the **Application** tab. This is where you'll investigate the cookies and local storage.
+  ![image](https://github.com/user-attachments/assets/fb88c622-f4a1-4ddb-aba8-5c2bf12376a7)
+
 
 ### **Step 4: Click the Register Button**
 - Now, click the **Register** button on the page. At this point, the application will trigger certain actions that modify the cookies.
@@ -73,23 +81,32 @@
 ### **Step 5: Refresh the Application Page**
 - Refresh the application page after clicking **Register**. You’ll notice that new data will appear, though it may seem unreadable at first.
 - Look closely in the **Application** tab, and you’ll spot a string of **garbled** or **encoded** text in the cookies or local storage.
+  ![image](https://github.com/user-attachments/assets/597a09eb-138e-4003-ba9a-d1a8ce985b6d)
+
 
 ### **Step 6: Copy the Encoded Data**
 - Copy the unreadable string you find in the **Application** tab. This is the encoded data that contains the flag.
+  ![image](https://github.com/user-attachments/assets/17be2152-a18e-4762-8813-79f4ff3a1268)
+
 
 ### **Step 7: Decode the Data with CyberChef**
 - Go back to **CyberChef** and paste the copied string into the input field.
+  ![image](https://github.com/user-attachments/assets/8baeca1c-90f0-4fa8-9241-7405f51e937a)
+
 - Now, apply the following operations:
   - **URL Decode**: This will decode any URL-encoded characters.
   - **Base64 Decode**: This will decode the string from Base64 encoding.
+- now you cleraly able to see the flag if not just click on bake option
+  ![image](https://github.com/user-attachments/assets/9bd6c649-dcfb-4f9c-a2ff-d884e710605a)
 
-### **Step 8: Get the Flag**
-- After applying both decoders, click on the **Bake** button in CyberChef.
-- The output will reveal the **flag** in a human-readable format.
 
 ### **Step 9: Submit the Flag**
 - Copy the flag from CyberChef and head back to **picoCTF**.
+  ![image](https://github.com/user-attachments/assets/4d25aa63-8341-4a0e-ac69-67fa5d91876c)
+
 - Paste the flag into the appropriate submission field and click **Submit**.
+  ![image](https://github.com/user-attachments/assets/9ffe67db-d662-4e7c-a60b-d7cf4d21abb7)
+
 
 
 # **Bookmarklet Web Vulnerability-CTF-WriteUp**
